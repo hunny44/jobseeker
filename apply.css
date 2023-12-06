@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  margin-right: 80px;
+  margin-top:5px;
+  padding: 0;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
+  background:url("images/bricks-459299_1920.jpg");
+  background-position-x:right; 
+  background-position-y:left; 
+
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.form-container {
+  width: 600px;
+  border: 5px solid white;
+  height:600px;
+  padding: 50px;
+  background-color:none;
+  border-radius: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color:white;
+}
+
+.input-group {
+  margin-bottom:5px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color:white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 100px;
+  border: 2px solid #ccc;
+  background:none;
+  text-decoration-color:white;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  background-color:blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+  display: none;
+}
+

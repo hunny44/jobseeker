@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align:left;
+}
+.logo{
+	align-content: flex-start;
+}
+.logo img{
+	align-content:top;
+	image-resolution: from-image;
+	
+}
+.navbar{
+	display:flex; 
+}
+.nav-list{
+	
+}
+.nav-list li{
+	
+}
+.nav-list li a{
+	
+}
